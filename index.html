@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arrays</title>
+        <script src="./script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form>
+            <p>Use the filter method on an array to fill a new array with the
+                numbers which are divisible by two. </p>
+            <p>Use the reduce method, to return the total of the elements of the
+                array it is called on.</p>
+            <br>
+            <div class="inputGroup">
+                <label>input</label>
+                <input type="string" id="input">
+                <label for="filter">filter</label>
+                <input type="radio" name="method" id="filter">
+                <label for="reduce">reduce</label>
+                <input type="radio" name="method" id="reduce">
+                <button onclick="calculate()" type="button" id="btn"> calculate </button>
+            </div>
+            <br>
+            <p>answer = </p>
+            <output id="result" for="filter reduce"></output>
+        </form>
+
+    </body>
+</html>
